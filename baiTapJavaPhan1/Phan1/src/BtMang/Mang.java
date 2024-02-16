@@ -13,6 +13,9 @@ public class Mang {
         // String ngay1 = "01/01/2000";
         // String ngay2 = "12/10/2023";
 
+        // // System.out.println(m.TaoHoTen());
+        // // System.out.println(m.TaoNgay(ngay1, ngay2));
+
         // for(int i = 1; i <= 100; i++) {
         //     // System.out.println(m.TaoHoTen());
         //     // System.out.println(m.TaoNgay(ngay1, ngay2));
