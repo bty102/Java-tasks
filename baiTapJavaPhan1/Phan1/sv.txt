@@ -1,5 +1,5 @@
-sv1;Tran Ngoc Mong Huyen;163/12/2005;nam;9.527351;dau;gioi
-sv2;Nguyen Thi Thanh Minh;22/12/2023;nu;4.330050;rot;yeu
-sv3;Duong Van Tan Minh;25/12/2001;nu;12;rot;kem
-sv4;Truong Thi Ngoc Minh;28/06/2021;nu;4.475618;rot;yeu
-sv5;Pham Thi Ngoc Minh;15/06\2019;nu;2.522320;rot;kem
+sv1;Truong Thi Nhi;17/08/2003;nu;1.140915;rot;kem
+sv2;Nguyen Ngoc Mong Huyen;01/07/2022;nu;1.708235;rot;kem
+sv3;Truong Ngoc Mong Tai;15/03/2020;nam;3.105860;rot;yeu
+sv4;Truong Thi Ngoc Phuoc;13/12/2018;nam;0.997770;rot;kem
+sv5;Nguyen Thi Ngoc Phuoc;23/07/2011;nam;7.065535;dau;kha
