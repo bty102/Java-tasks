@@ -65,7 +65,7 @@ public class Hangbo {
     public ArrayList<Hang> timKiem(String tenHang) throws Exception {
         ArrayList<Hang> tmp = new ArrayList<Hang>();
         for(Hang h : ds) {
-            if(h.getTenHang().contains(tenHang)) tmp.add(h);
+            if(h.getTenHang().toLowerCase().contains(tenHang.toLowerCase())) tmp.add(h);
         }
         return tmp;
     } 

@@ -57,6 +57,7 @@ public class FrmBH extends JFrame {
 	 * Create the frame.
 	 */
 	public FrmBH() {
+		setTitle("Ban hang");
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowOpened(WindowEvent e) {
@@ -69,7 +70,7 @@ public class FrmBH extends JFrame {
 				}
 			}
 		});
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 757, 587);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -86,6 +87,8 @@ public class FrmBH extends JFrame {
 		comboBox_hang.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				try {
+					textField_SLC.setText("");
+					textField_TT.setText("");
 					String tenHang = comboBox_hang.getSelectedItem().toString();
 					for(Hang h : hbo.getDS()) {
 						if(h.getTenHang().equals(tenHang)) {
@@ -122,6 +125,7 @@ public class FrmBH extends JFrame {
 			@Override
 			public void keyPressed(KeyEvent e) {
 				try {
+					if(e.getKeyChar()=='\b') return;
 					if(e.getKeyChar() < '0' || e.getKeyChar() > '9') {
 						JOptionPane.showMessageDialog(null, "Gia tri khong hop le!");
 						textField_SLC.setText("");
